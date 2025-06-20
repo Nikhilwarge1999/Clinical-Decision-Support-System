@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 
 load_dotenv()  # Load GROQ_API_KEY from .env
 llm=ChatGroq(model_name="groq/llama3-70b-8192",
-             api_key=os.getenv("GROQ_API_KEY")
+             api_key=st.secrets["GROQ_API_KEY"]
 )
 
 
