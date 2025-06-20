@@ -6,4 +6,5 @@ langchain
 faiss-cpu
 python-dotenv
 langchain-groq
+sqlite3
 
